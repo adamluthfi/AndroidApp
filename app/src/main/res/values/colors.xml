@@ -15,4 +15,10 @@
     <color name="color7">#10cbdc</color>
     <color name="color8">#1fce0f</color>
     <color name="color9">#d90c52</color>
+
+    <color name="main_blue">#3fa2f9</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="empty_event">#ffffff</color>
+    <color name="divider_light_color">#ffffff</color>
 </resources>
