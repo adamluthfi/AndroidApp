@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gredu.androidapp.calendar.CalendarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        <com.applandeo.materialcalendarview.CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:selectionColor="@color/color12"
+            app:todayLabelColor="@android:color/white"
+            app:abbreviationsBarColor="@color/color11"
+            app:abbreviationsLabelsColor="@android:color/white"
+            app:daysLabelsColor="@android:color/white"
+            app:pagesColor="@color/color10"
+            app:headerColor="@color/color10" />-->
+
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            android:id="@+id/compatCalendarView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:compactCalendarEventIndicatorStyle="small_indicator"
+            app:compactCalendarCurrentDayBackgroundColor="@color/color12"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextSize="14sp"
+            app:compactCalendarBackgroundColor="@color/color10"
+            app:compactCalendarTextColor="@android:color/white"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="@color/color12"
+            app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+            app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="true"/>
+    </LinearLayout>
+
+</ScrollView>
