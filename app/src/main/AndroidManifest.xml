@@ -54,9 +54,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".calendar.CalendarActivity"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".pdfviewer.PdfViewActivity"/>
-        <activity android:name=".stepper.StepperActivity">
+            android:screenOrientation="portrait" />
+        <activity android:name=".pdfviewer.PdfViewActivity" />
+        <activity android:name=".stepper.StepperActivity"/>
+        <activity android:name=".barchart.BarChartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

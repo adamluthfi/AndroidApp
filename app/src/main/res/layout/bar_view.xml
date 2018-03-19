@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:id="@+id/progressBar"
+            android:layout_span="7"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            app:rcBackgroundColor="@color/gray_60"
+            app:rcBackgroundPadding="2dp"
+            app:rcProgressColor="@color/colorProgress"
+            app:rcRadius="5dp"
+            app:rcReverse="false"
+            app:rcSecondaryProgress="60"
+            app:rcSecondaryProgressColor="@color/colorPerformanceHighScope" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="Early"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="K1"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="2-3"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="4-5"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="6-7"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="8-9"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:text="10-12"/>
+    </TableRow>
+
+</TableLayout>
