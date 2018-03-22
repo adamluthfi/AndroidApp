@@ -60,7 +60,9 @@
         <activity android:name=".barchart.BarChartActivity">
         </activity>
         <activity android:name=".recyclerview_to_rescue.RecyclerViewActivity" />
-        <activity android:name=".pdfviewer.PdfActivity">
+        <activity android:name=".pdfviewer.PdfActivity"/>
+
+        <activity android:name=".pdfviewer.PdfReaderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
