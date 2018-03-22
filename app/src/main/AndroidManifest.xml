@@ -58,13 +58,15 @@
         <activity android:name=".pdfviewer.PdfViewActivity" />
         <activity android:name=".stepper.StepperActivity" />
         <activity android:name=".barchart.BarChartActivity">
+        </activity>
+        <activity android:name=".recyclerview_to_rescue.RecyclerViewActivity" />
+        <activity android:name=".pdfviewer.PdfActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".recyclerview_to_rescue.RecyclerViewActivity"></activity>
     </application>
 
 </manifest>

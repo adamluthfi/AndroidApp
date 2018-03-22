@@ -57,6 +57,7 @@ dependencies {
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     implementation 'com.stepstone.stepper:material-stepper:4.3.1'
     implementation 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    compile 'es.voghdev.pdfviewpager:library:1.0.3'
     compile 'com.mcxiaoke.volley:library:1.0.+'
 
     testImplementation 'junit:junit:4.12'
